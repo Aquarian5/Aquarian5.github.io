@@ -1,0 +1,14 @@
+4. Open Source and Repo Setup Reflection
+
+Explain how to create a repository on GitHub and clone the repository to your local computer to a non-technical person
+Describe what open source means
+What do you think about Open Source? Does it make you nervous or protective? Does it feel like utopia?
+Assess the importance of using licenses
+What concepts were solidified in the challenge? Did you have any "aha" moments? What did you struggle with?
+Did you find any resources on your own that helped you better understand a topic? If so, please list it.
+
+To create a new repository in GitHub, you must first complete the new repository form found in your profile settings.  When figuring out a repository name, it is best to set it to your username.github.io .  Click the create repository button.  If you are using the command line to create your website, you will then need to clone your repository so your work is pushed on to GitHub.  To do this, you must be in your new repository.  On the right side of the page is a url for you to clone the page.  Highlight that. You must make an index page that will store the html for your site.  Save the index file as html in your github.io file in your directory.  You can then go through the directions that allow you to commit and push your changes to your website.
+
+Open Source allows you to share how a computer program  was made and giving the public the permission to customize and use the program as they deem fit. Regarding how I feel about open source software I am torn.  On one hand, I know that people can take your work, play it off as their own, and take credit and glory for it.  Also, your work could be used in a bad way.  However, open source allows you to help people in many ways.  The student, who is learning how to code, could learn proper methods and new tips.  The code you wrote could be used to start world peace or find a cure for cancer.  So for me, it is a double edged sword.
+
+During the challenge, I struggled with trying to set up my website so that it displayed the text in the html file.  I kept getting a 404 error message.  I struggled with this for hours using all of my resources.  I had my "ah-ha" moment during an office hours session.  I used Google and Stackoverflow to help me when I was struggling. 
