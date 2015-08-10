@@ -1,0 +1,22 @@
+body {
+	color:rgb(245,224,255);
+	padding:10px;
+	font-family:'Open Sans Condensed', sans-serif;
+	text-align:center;} 
+
+a:link {
+	color:rgb(38,12,240);
+	text-decoration:none;}
+
+a:visited {
+	color:rbg(0,0,0);}
+
+h1, h3, h4 {
+
+	text-align:center;
+	color: rgb(245,224,255);
+	font-family:'Open Sans Condensed', sans-serif;
+	paddinng:10px}
+
+footer{
+	display:block;}
