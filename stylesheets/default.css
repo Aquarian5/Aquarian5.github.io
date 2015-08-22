@@ -1,7 +1,12 @@
 body {
 	color: rgb(0,0,0);
 	padding: 10px;
+	margin: 8%;
 	font-family: 'Open Sans Condensed', sans-serif;} 
+
+a{
+	padding-right 3%;
+}
 
 a:link {
 	color: rgb(38,12,240);
@@ -10,10 +15,14 @@ a:link {
 a:visited {
 	color:rbg(0,0,0);}
 
+h1{
+	font-size: 3em;
+}
+
 h1, h3, h4 {
 
 	text-align: center;
 	color: rgb(245,224,255);
 	font-family: 'Open Sans Condensed', sans-serif;
-	paddinng: 10px}
+	padding: 10px}
 	
