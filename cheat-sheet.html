@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title> Ruby Cheat Sheet </title>
+<style>
+
+body {
+    background-image: linear-gradient(135deg, #723362, #9d223c);
+    background-color: #9d223c;
+    color: #fff;
+    padding: 1em 0;
+    font-weight: 300;
+    font-size: 1.3em;
+    text-transform: uppercase;
+    letter-spacing: .1em;
+    padding-left: .4em
+  }
+
+
+h2 {
+  font-size:35px;
+  text-align: center;
+}
+
+ 
+nav {
+    position: center;
+
+}
+li {
+    display:center;
+}
+footer{ 
+    position: bottom;
+    width:100%;
+    height:50%;
+    display:inline-block;
+    padding:15px
+}
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 5px;
+}
+
+
+</style>
+</head>
+
+  <body>
+
+
+  <h1> Ruby Basics</h1>
+
+
+  <section>
+   
+              <h1><b>What You Should Know:</b></h1>
+  </br>
+
+<h2>Variables</h2>
+
+<table style="width:100%">
+  <tr>
+    <th>CONCEPT</th>
+    <th>DEFINITION</th>   
+    <th>EXAMPLE</th>
+  </tr>
+  <tr>
+    <td>Variables</td>
+    <td>Ordinary ("local") variables are created through assignment</td>    
+    <td>number=5</td>
+  </tr>
+  <tr>
+    <td>Conditional Tests(if/else)</td>
+    <td>"If this is true, do one thing; if not, do something else." AKA Branching</td>    
+    <td>if <i>name</i> = "cat" 
+    <i>puts</i> "hello"      
+    <i>else</i> puts "bye"</td>
+  </tr>
+  <tr>
+    <td>Methods(aka Functions)</td>
+    <td>Functions can return values, and those values can be assigned to variables. The return
+value is the last statement in the definition. </td>    
+    <td>def <i>five</i>/5/<i>variable</i> = 5</td>
+  </tr>
+  <tr>
+    <td>Loops</td>
+    <td>Loops in Ruby are used to execute the same block of code a specified number of times. <i>While Loops</i>executes code while conditional is true. A while loop's conditional is separated from code by the reserved word do, a newline, backslash \, or a semicolon ;. <i>For Loops</i> Executes code once for each element in expression. </td>    
+    <td></td>
+  </tr>
+  <tr>
+    <td>Until</td>
+    <td>Executes code while conditional is false. An until statement's conditional is separated from code by the reserved word do, a newline, or a semicolon. </td>    
+    <td></td>
+  </tr>
+  <tr>
+    <td>Break(Loops)</td>
+    <td>Terminates the most internal loop. Terminates a method with an associated block if called within the block (with the method returning nil). </td>    
+    <td></td>
+  </tr>
+  <tr>
+    <td>Case/When Statement</td>
+    <td>If you’ve got a lot of options to work through, using if/elsif/else might be somewhat wordy. Try the case statement.Inside the case/end keywords, you can put as many when statements as you’d like. Follow that when by the conditional expression, and then the lines of code go after it. Just like the if statement, the case statement is really an expression, so you can assign it to an expression and capture a returned value. </td>    
+    <td>hour = 15/case/when hour <(lessthan) 12/puts "Good Morning"/when hour >(morethan)12 &&(and) hour <(lessthan) 17/puts "Good Afternoon"/else/puts "Good Evening"/end(/ = breaks in code. Do not put /!)</td>
+  </tr>
+</table> 
+  </body>
+  </section>
+</main>
